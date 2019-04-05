@@ -27,3 +27,16 @@ Add this config in package.json
       "outputFile": "./storybook/storyLoader.js"
     }
   }
+
+
+Add Snapshot tests
+--
+Create storybook/storyshots.test.js
+with
+
+import initStoryshots from '@storybook/addon-storyshots'
+initStoryshots({})
+
+yarn add -D @storybook/addon-storyshots
+
+Add 'json' file extension in jest config
