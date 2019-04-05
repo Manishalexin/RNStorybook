@@ -5,7 +5,17 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
+    "prestorybook": "rnstl",
     "storybook": "storybook start"
+  },
+  "config": {
+    "react-native-storybook-loader": {
+      "searchDir": [
+        "./app/components"
+      ],
+      "pattern": "**/*.stories.js",
+      "outputFile": "./storybook/storyLoader.js"
+    }
   },
   "dependencies": {
     "react": "16.8.3",
@@ -30,6 +40,7 @@
     "metro-react-native-babel-preset": "^0.53.1",
     "prop-types": "^15.7.2",
     "react-dom": "16.8.3",
+    "react-native-storybook-loader": "^1.8.0",
     "react-test-renderer": "16.8.3",
     "typescript": "^3.4.1"
   },
