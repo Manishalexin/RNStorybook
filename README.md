@@ -40,3 +40,9 @@ initStoryshots({})
 yarn add -D @storybook/addon-storyshots
 
 Add 'json' file extension in jest config
+
+
+Add Add-ons
+--
+Add dependencies
+ yarn add -D @storybook/addon-knobs   
