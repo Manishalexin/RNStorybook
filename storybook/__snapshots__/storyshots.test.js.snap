@@ -1,5 +1,135 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Button Primary 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#00B6B6",
+        "borderRadius": 24,
+        "height": 48,
+        "justifyContent": "center",
+        "minWidth": 196,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+        }
+      }
+    >
+      Hello Button
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Button Secondary 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#00B6B61A",
+        "borderColor": "#00B6B6",
+        "borderRadius": 24,
+        "borderWidth": 1,
+        "height": 48,
+        "justifyContent": "center",
+        "minWidth": 196,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#00B6B6",
+        }
+      }
+    >
+      Hello Button
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Button Tertiary 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#00B6B6",
+        }
+      }
+    >
+      Hello Button
+    </Text>
+  </View>
+</View>
+`;
+
 exports[`Storyshots Button with some emoji 1`] = `
 <View
   style={
@@ -20,43 +150,21 @@ exports[`Storyshots Button with some emoji 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
-    style={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#00B6B6",
+        "borderRadius": 24,
+        "height": 48,
+        "justifyContent": "center",
+        "minWidth": 196,
+      }
+    }
   >
     <Text
       style={null}
     >
       😀 😎 👍 💯
-    </Text>
-  </View>
-</View>
-`;
-
-exports[`Storyshots Button with text 1`] = `
-<View
-  style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "#F5FCFF",
-      "flex": 1,
-      "justifyContent": "center",
-    }
-  }
->
-  <View
-    accessible={true}
-    isTVSelectable={true}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={null}
-  >
-    <Text
-      style={null}
-    >
-      Hello Button
     </Text>
   </View>
 </View>
