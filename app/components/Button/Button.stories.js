@@ -22,18 +22,19 @@ storiesOf('Button', module)
     ])
   )
   .add(
-    'with text',
+    'Primary',
     () => (
-      <Button onPress={action('clicked-text')} disabled={boolean('Disabled', false)}>
-        <Text>{text('Label', 'Hello Button!')}</Text>
-      </Button>
+      <Button
+        onPress={action('clicked-text')}
+        disabled={boolean('Disabled', false)}
+        title={text('Label', 'Hello Button!')}
+        type='PRIMARY'
+      />
     ),
     {
       notes: 'A sample note for button component'
     }
   )
-  .add('with some emoji', () => (
-    <Button onPress={action('clicked-emoji')}>
-      <Text>😀 😎 👍 💯</Text>
-    </Button>
-  ))
+  .add('Secondary', () => <Button onPress={action('clicked-text')} title='Hello Button' type='SECONDARY' />)
+  .add('Tertiary', () => <Button onPress={action('clicked-text')} title='Hello Button' type='TERTIARY' />)
+  .add('with some emoji', () => <Button onPress={action('clicked-emoji')} title='😀 😎 👍 💯' />)
