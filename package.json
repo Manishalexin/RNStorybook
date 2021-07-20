@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "react": "16.8.3",
-    "react-native": "0.59.3"
+    "react-native": "0.62.3"
   },
   "devDependencies": {
     "@storybook/addon-actions": "4.1.16",
